@@ -64,7 +64,7 @@ const fetchMatchData = async () => {
       if (preSaleDateMatchSimple) {
         const [_, preDay, preMonth, preYear] = preSaleDateMatchSimple;
         const preFullYear = preYear.length === 2 ? `20${preYear}` : preYear;
-        preSaleDate = new Date(`${preFullYear}-${preMonth}-${preDay}T10:00:00`);
+        preSaleDate = new Date(`${preFullYear}-${preMonth}-${preDay}T08:00:00`);
       }
     }
 
